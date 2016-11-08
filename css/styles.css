@@ -86,7 +86,7 @@ ul li img {
 }
 
 #buttonLeft{
-	position: relative;
+	position: absolute;
 	left: -15%
 	top:65%;
 	background: url(../Photos/left.png);
