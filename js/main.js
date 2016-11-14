@@ -8,7 +8,7 @@ $overlay.append($image);
 $("body").append($overlay);
 $overlay.append($caption);
 
-$("#photo-gallery a").click(function(event){
+$(".list a").click(function(event){
 	event.preventDefault();
 	var imageLocation = $(this).attr("href");
 	$image.attr("src", imageLocation);
@@ -68,3 +68,4 @@ $('.next').click(function(){
 		
 	$("#buttonRight").removeClass(".show-button");
 });
+

@@ -7,18 +7,20 @@ body {
 	width: 100%;
 	
 }
-box-sizing {
+	box-sizing {
 
-border-box
+	border-box
 
-}
+	}
 
 h1 {
 	font-size: 25px;
-	color: white;
+	color: black;
+	font-family: "Times New Roman", Times, serif;
 }
 
 footer {
+	width: 100%;
 	text-align: center;
 }
 
@@ -31,7 +33,7 @@ header {
 	text-align: center;
 }
 
-#photo-gallery {
+.list {
 	text-align: center;
 	display: block;
 	margin: 0 auto;
@@ -52,27 +54,21 @@ li  {
 
 
 input[type=text] {
-	
-
+	color: blue;
+	cursor: pointer;
 }
 
 
-.search-container {
-	width: 100%;
+.searchbox {
+	width: 20%;
 	text-align: center;
 	display: block;
 	margin: 0 auto;
-
+	border: 2px solid black;
+	box-shadow: 1px 1px 1px black;
+	background-color: #bced91;
 }
 
-#searchbox {
-		
-		padding: 15px 0;
-		max-width: 468px;
-		margin: 0 auto;
-		font-size: 16pt;
-		
-}
 
 ul li img {
 	display: block;
@@ -94,7 +90,7 @@ ul li img {
 #overlay img{
 	margin-top: 10%;
 	max-width: 50%;
-	box-shadow: 
+	box-shadow: 2px;
 	
 
 }
@@ -103,6 +99,7 @@ ul li img {
 	color: white;
 	font-size: 20px;
 	text-align: center;
+	font-family: "Times New Roman", Times, serif;
 }
 
 
