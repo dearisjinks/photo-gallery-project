@@ -87,7 +87,7 @@ ul li img {
 #overlay img{
 	margin-top: 10%;
 	max-width: 50%;
-	box-shadow: 2px;
+	box-shadow: 10px 5px 5px 0 black;
 	
 
 }
@@ -173,7 +173,7 @@ ul li img {
 
 }
 
-@media and (min-width: 768px) {
+@media screen and (min-width: 768px) {
 	body{
 		width: 70%;
 	}
@@ -181,7 +181,7 @@ ul li img {
 	#overlay img{
 		margin-top: 10%;
 		max-width: 50%;
-		box-shadow: 2px;
+		box-shadow: 10px 5px 5px 0 black;
 		
 
 	}
@@ -194,7 +194,7 @@ ul li img {
 
 }
 
-@media and (min-width: 1024px) {
+@media screen and (min-width: 1024px) {
 	body{
 		max-width: 100%;
 		margin: 0 auto;

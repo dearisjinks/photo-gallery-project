@@ -3,7 +3,7 @@
 <head>
 	<title>Photo Gallery</title>
 	<link rel="stylesheet" href="css/normalize.css">
-	<link rel="stylesheet" type="text/css" href="css/styles.css" charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="css/styles.css">
 	<meta name="viewport" content="width=device-width, intial-scale=1.0">
 </head>
 <body>
@@ -12,7 +12,7 @@
 			<div class="name">
 				<h1>Photo Gallery</h1>
 			</div>
-				<input id="search" name="search" class="searchbox" placeholder="Search Here" type="text" data-list=".list">	
+			<input id="search" name="search" class="searchbox" placeholder="Search Here" type="text" data-list=".list">	
 		</header>
 			<ul class="list">		
 				<li title="Hay Bales"><a href="Photos/01.jpg" title="Hay Bales"><img src="Photos/Thumbnails/01.jpg" alt="I love hay bales. Took this snap on a drive through the countryside past some straw fields."></a></li>
@@ -31,10 +31,10 @@
 		</div>
 		<div class="show-button">
 			<div class="previous">
-				<input type="image" id="myimage" src="Photos/left.svg">
+				<input type="image" id="leftmyImage" src="Photos/left.svg" alt="left-pic">
 			</div>
 			<div class="next">
-				<input type="image" id="myimage" src="Photos/right.svg">
+				<input type="image" id="rightmyImage" src="Photos/right.svg" alt="right-pic">
 			</div>
 		</div>
 		<script src="js/jquery-3.1.1.min.js" type="text/javascript" charset="utf-8"></script>
@@ -46,7 +46,6 @@
 			});
 		</script>
 		<div id="overlay"></div>
-
 		<footer>Copyright 2016</footer>
 	</body>
 </html>

@@ -38,9 +38,8 @@ function theCurrentImage (currentImage){
 
 $('.previous').click(function(){
 	theParent= $(thisImage).parent().prev();
-	if (theParent.length!=0){
-		ok=$(theParent).children('a')
-
+	if (theParent.length!==0){
+		ok=$(theParent).children('a');
 	}
 		theCurrentImage(ok);
 		// Make me appear
@@ -56,8 +55,8 @@ $('.previous').click(function(){
 
 $('.next').click(function(){
 	theParent= $(thisImage).parent().next();
-	if (theParent.length!=0){
-		ok=$(theParent).children('a')
+	if (theParent.length!==0){
+		ok=$(theParent).children('a');
 	}
 		theCurrentImage(ok);
 			// Make me appear
